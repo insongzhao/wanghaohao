@@ -1,0 +1,5 @@
+cn\insozhao\start\App.class
+cn\insozhao\config\RabbitMQConfig.class
+cn\insozhao\Controller\PutController.class
+cn\insozhao\beans\DataVo.class
+cn\insozhao\rabbitmq\Producer.class

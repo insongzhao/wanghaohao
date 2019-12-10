@@ -1,0 +1,9 @@
+server:
+  port: 80
+spring:
+  rabbitmq:
+    host: 47.100.236.197
+    port: 5672
+    username: admin
+    password: zysadmin
+    virtual-host: my_vhost
