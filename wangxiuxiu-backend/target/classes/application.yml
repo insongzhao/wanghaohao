@@ -39,8 +39,16 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 300000
       connection-test-query: select 1
+#      mybatis配置
 mybatis:
   mapper-locations: classpath:mapper/*Mapper.xml
   type-aliases-package: cn.insozhao.beans
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#   云通讯
+yuntongxun:
+  accountSid: 8aaf07086c8a1560016cb2d1b10d1bd3
+  accountToken: 591e0c582b924a8896252ee1c9c6464b
+  AppId: 8aaf07086c8a1560016cb2d1b15f1bd9
+#  验证码过期时间
+  expireTime: 3
