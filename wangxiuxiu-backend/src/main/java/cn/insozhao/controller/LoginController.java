@@ -1,4 +1,4 @@
-package cn.insozhao.Controller;
+package cn.insozhao.controller;
 
 import cn.insozhao.beans.LoginVo;
 import cn.insozhao.beans.ResultVo;
