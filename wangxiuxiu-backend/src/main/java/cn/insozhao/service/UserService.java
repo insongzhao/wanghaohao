@@ -1,9 +1,7 @@
 package cn.insozhao.service;
 
-import cn.insozhao.beans.ResultVo;
-import org.springframework.stereotype.Service;
+import cn.insozhao.beans.User;
 
-@Service
 public interface UserService {
-      ResultVo  login(String username,String password);
+      boolean  login(User user);
 }
