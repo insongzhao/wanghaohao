@@ -1,3 +1,5 @@
+D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\config\CorsConfig.java
+D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\beans\RegisterVo.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\start\App.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\config\RedisConfig.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\config\RabbitMQConfig.java
@@ -9,7 +11,8 @@ D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\i
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\beans\ResultVo.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\service\UserService.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\util\RedisUtil.java
-D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\controller\LoginController.java
+D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\controller\UserController.java
+D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\controller\CommonController.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\beans\User.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\config\SwaggerConfig.java
 D:\zys\gitRepository\wanghaohao\wanghaohao\wangxiuxiu-backend\src\main\java\cn\insozhao\beans\LoginVo.java

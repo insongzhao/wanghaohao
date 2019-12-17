@@ -24,7 +24,7 @@ spring:
     timeout: 1000
 #    hikari连接池配置
   datasource:
-    url: jdbc:mysql://insozhao.cn:3306/wangxiuxiu
+    url: jdbc:mysql://insozhao.cn:3306/wangxiuxiu?useUnicode=true&characterEncoding=utf8
     password: zysabc123
     username: root
     driver-class-name: com.mysql.cj.jdbc.Driver

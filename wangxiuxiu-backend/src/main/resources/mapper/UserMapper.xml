@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="cn.insozhao.mapper.UserMapper">
-    <select id="login" parameterType="User" resultType="int">
-        SELECT count(1) FROM sys_user where username=#{username} and password =#{password}
+    <select id="login" parameterType="User" resultType="String">
+        SELECT id FROM sys_user where username=#{username} and password =#{password}
     </select>
+    <insert id="register" parameterType="RegisterVo">
+        insert into sys_user values (#{userid},#{telephone},#{user.username},#{user.password},#{registerTime},#{registerIp})
+    </insert>
 </mapper>

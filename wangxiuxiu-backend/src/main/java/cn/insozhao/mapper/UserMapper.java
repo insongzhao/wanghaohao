@@ -1,10 +1,13 @@
 package cn.insozhao.mapper;
 
+import cn.insozhao.beans.RegisterVo;
 import cn.insozhao.beans.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper
 public interface UserMapper {
 
-    int login(User user);
+    String login(User user);
+
+    int register(RegisterVo registerVo);
 }
