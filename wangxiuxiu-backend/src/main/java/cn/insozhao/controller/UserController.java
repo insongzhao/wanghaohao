@@ -43,8 +43,16 @@ public class UserController {
 
     @PostMapping("login")
     public ResultVo<String> login(LoginVo loginVo){
+
+
         String token = loginVo.getToken();
         ResultVo<String> resultVo = new ResultVo<>();
+        if (StringUtils.isEmpty(loginVo.getUser().getUsername()) && StringUtils.isEmpty(loginVo.getUser().getPassword()) ){
+            resultVo.setCode(4);
+            resultVo.setMessage("参数上传错误");
+            resultVo.setData("");
+            return resultVo;
+        }
         User user = loginVo.getUser();
 //      如果没有token，默认为用户是第一次登录或者token已经过期
         if (StringUtils.isEmpty(token)){
@@ -69,7 +77,7 @@ public class UserController {
             }else {
 //                更新redis token
                 if(userService.login(user)){
-                    resultVo.setCode(0);
+                    resultVo.setCode(2);
                     resultVo.setMessage("登陆成功");
                     String tokenStr = TokenUtil.createJwtToken(user.getUsername(),user.getPassword());
                     resultVo.setData(tokenStr);
